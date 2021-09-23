@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<head>
+  <meta charset="utf‐8">
+  <title> Hello web audio </title>
+</head>
+
+<body>
+    <h1 id="heading"></h1>
+    <div class = "wave choice"></div>
+    <form id="select_wave">
+        <h1>Choose a Waveform Below:</h1>
+            <input type ="radio" id="sine" name="choice state" value= "sine" /> 
+            <label for="sine" >sine</label><br> 
+            <input type ="radio" id="sawtooth" name="choice state" value = "sawtooth" />
+            <label for="sawtooth">sawtooth</label>
+            </form>  <br> 
+        </div>
+      <div class = "chords"></div>
+          <h2>Chords in the Key of C</h2>
+          <button id ="blue" onclick="changeBodyBg('blue');">Minor 7 Chord </button>
+          <button id = "yellow">Major 7 Chord</button>
+          <button id = "gray">Diminished Chord</button>
+          <button id = "purple">Augmented Chord</button>
+          <button id = "pink">Dominant 7 Chord</button>
+
+      </body>
+      <script src="./keyboard.js"></script>
+</html>
